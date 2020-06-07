@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Doctors Reservation </string>
+    <string name="login_progress_signing_in">UserName</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="register">Register</string>
+    <string name="register_txt"> Wellcome To Register</string>
+    <string name="email">Email</string>
+
+
+</resources>

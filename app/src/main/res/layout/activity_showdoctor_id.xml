@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true">
+    <TableRow>
+        <TextView
+            android:text="Doctor_Address"
+            android:textStyle="bold"
+            android:padding="3dip" />
+
+        <TextView
+            android:text="Doctor_name"
+            android:textStyle="bold"
+            android:padding="3dip" />
+
+        <TextView
+            android:text="Doctor_id"
+            android:textStyle="bold"
+            android:padding="3dip" />
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/dbDoctor_address"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/dbDoctor_name"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/dbDoctor_id"
+            android:padding="3dip" />
+
+
+
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Wellcome To New Reservation "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/getdoctor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_centerInParent="true"
+        android:hint="Enter Doctor Id"  />
+
+    <Button
+        android:id="@+id/showdoctor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/getdoctor_id"
+        android:layout_marginBottom="-92dp"
+        android:layout_centerHorizontal="true"
+        android:text="Show Doctor's Id"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/preform_reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/showdoctor_id"
+        android:layout_marginBottom="-92dp"
+        android:layout_centerHorizontal="true"
+        android:text="Reserve"
+        android:gravity="center"
+        android:onClick="performReservation"/>
+
+
+</RelativeLayout>
